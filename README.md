@@ -8,7 +8,7 @@
 > - login form
 > - suvey
 > - voting poll
-> - any kind of form data collection
+> - or any kind of form for collecting data
 >
 > And be able to store the collected data in formats like
 > - json
