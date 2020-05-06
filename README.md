@@ -21,3 +21,15 @@
 **EasyPost** makes doing all that **super simple**, with it's **GUI interface** and fully **opensource** templates
 
 *And the best part the data never leaves your device*
+
+
+---
+### 1 of many form template
+
+<img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage.png" width="420"/>  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage2.png" width="420"/>
+
+---
+### Poll (Minimal, Dark theme)
+<center>
+  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/poll.png"/>
+</center>
