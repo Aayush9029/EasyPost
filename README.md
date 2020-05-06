@@ -17,13 +17,13 @@
 >
 >while seamlessy hosting the form in either a local web-server or in the internet.
 
-**EasyPost** makes doing all that **super simple**, with it's **GUI interface** and fully **opensource** templates
+**EasyPost** makes doing all that **super simple**, with it's **GUI interface** and fully **opensource** templates.
 
 *It's lightweight fast, stable\* And the best part the data never leaves your device*
 
 
 ---
-### 1 of many form template
+### 1 of random.randint(5) form template.
 
 <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage.png" width="420"/>  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage2.png" width="420"/>
 
