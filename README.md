@@ -21,14 +21,25 @@
 
 *It's lightweight fast, stable\* And the best part the data never leaves your device*
 
-
 ---
+
 ### Two input box form template.
 
 <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage.png" width="420"/>  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage2.png" width="420"/>
 
 ---
+
 ### Poll (Minimal, Dark theme)
 <center>
   <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/poll.png"/>
 </center>
+
+---
+
+### Temporary (index page)
+<center>
+  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/index.png"/>
+</center>
+
+---
+
