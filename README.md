@@ -19,7 +19,7 @@
 
 **EasyPost** makes doing all that **super simple**, with it's **GUI interface** and fully **opensource** templates
 
-*And the best part the data never leaves your device*
+*It's lightweight fast, stable* And the best part the data never leaves your device*
 
 
 ---
