@@ -10,13 +10,13 @@
 > - suvey
 > - voting poll
 > - any kind of form data collection
-
+>
 > And be able to store the collected data in formats like
 > - json
 > - csv
 > - plain text
-
-while seamlessy hosting the form in either a local web-server or in the internet.
+>
+>while seamlessy hosting the form in either a local web-server or in the internet.
 
 **EasyPost** makes doing all that **super simple**, with it's **GUI interface** and fully **opensource** templates
 
