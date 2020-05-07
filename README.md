@@ -39,6 +39,12 @@
   <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/pollresult.png" width="600"/>
 </center>
 
+
+---
+
+### Login Form (Minimal theme) and Sign Up Form (Dark theme)
+  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/login.png" width="420"/>   <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/signup.png" width="420"/>
+
 ---
 
 ### Temporary (index page)
