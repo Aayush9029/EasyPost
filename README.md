@@ -14,6 +14,7 @@
 > - json
 > - csv
 > - plain text
+> - xml
 >
 >while seamlessy hosting the form in either a local web-server or in the internet.
 
