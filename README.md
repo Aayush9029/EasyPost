@@ -60,7 +60,7 @@ python3 app.py
 
 ---
 
-### Temporary (index page)
+### index.html
 <center>
   <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/index.png"/>
   </center>
