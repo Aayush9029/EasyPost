@@ -48,3 +48,34 @@
 
 ---
 
+Json Data Example (Quotes Form)
+```json
+[
+  {
+    "name": "Plato",
+    "quote": "Wise men speak because they have something to say;
+              fools because they have to say something."
+  },
+  {
+    "name": "Confucius",
+    "quote": "The man who asks question is a fool for a minute,
+              the man who does not ask is a fool for life."
+  },
+  {
+    "name": "Jesus Christ",
+    "quote": "A new command I give you: love one another.
+              As I have loved you, so you must love one another."
+  },
+  {
+    "name": "Gautam Buddha",
+    "quote": "Hatred does not cease by hatred, but only be love;
+              this is the eternal rule."
+  },
+  {
+    "name": "Guru Nanak",
+    "quote": "He who has no faith in himself can never have faith in god."
+  }
+]
+```
+
+
