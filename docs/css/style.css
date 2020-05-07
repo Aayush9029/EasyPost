@@ -11,7 +11,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  width: 0;
+  width: ;
   height: 100%;
   background-color: #fff;
   box-shadow: 0px 10px 40px 0 rgba(0, 0, 0, 0.2);
@@ -210,21 +210,18 @@ blockquote .author {
 }
 
 /*#item1, #item4, #item5, #item7 {
-	background-color: #fff;
-  }
-  
-  #item2, #item3, #item6, #item8 {
-	color: #fff;
-	background-color: #eb0000;
-  }
-  
-  #item3 {
-	background-color: #01165f;
-  }
-  
-  #item6 {
-	background-color: #02249f;
-  }*/
+  background-color: #fff;
+}
+#item2, #item3, #item6, #item8 {
+  color: #fff;
+  background-color: #eb0000;
+}
+#item3 {
+  background-color: #01165f;
+}
+#item6 {
+  background-color: #02249f;
+}*/
 
 /* --- GALLERY --- */
 .gallery-col1 {
@@ -508,7 +505,7 @@ blockquote .author {
     right: 1.5em;
     bottom: 1.5em;
     /*width: calc(var(--boxwidth));
-	  height: calc(var(--boxheight));*/
+    height: calc(var(--boxheight));*/
 
     -webkit-transition: -webkit-transform 0.4s ease-in-out;
     transition: transform 0.4s ease-in-out;
@@ -553,7 +550,7 @@ blockquote .author {
   .item {
     float: left;
     /*width: calc(var(--boxwidth2));
-	  height: calc(var(--boxheight2));*/
+    height: calc(var(--boxheight2));*/
     width: 33.12977099236641%;
     height: 32.89110005527916%;
     min-height: 100px;
