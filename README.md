@@ -40,7 +40,6 @@
 </center>
 
 ---
----
 
 ### Temporary (index page)
 <center>
