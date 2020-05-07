@@ -24,33 +24,34 @@
 ---
 
 ### (Two inputs) form template.
-
+<center>
 <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage.png" width="420"/>  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage2.png" width="420"/>
+</center>
 
 ---
 
 ### Poll (Minimal, Dark theme)
 <center>
   <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/poll.png" width="600"/>
-</center>
-
+  
 ### Poll Results (Mordern Dark theme)
-<center>
   <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/pollresult.png" width="600"/>
 </center>
-
 
 ---
 
 ### Login Form (Minimal theme) and Sign Up Form (Dark theme)
-  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/login.png" width="420"/>   <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/signup.png" width="420"/>
+<center>
+<img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/login.png" width="420"/>   <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/signup.png" width="420"/>
+</center>
+
 
 ---
 
 ### Temporary (index page)
 <center>
   <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/index.png"/>
-</center>
+  </center>
 
 ---
 
@@ -83,5 +84,3 @@ Json Data Example (Quotes Form)
   }
 ]
 ```
-
-
