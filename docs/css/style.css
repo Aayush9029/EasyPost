@@ -86,7 +86,13 @@ body {
   z-index: 1;
 }
 
+.white-nav {
+  color: aliceblue;
+}
+
 .menuBtn {
+  color: rgb(0, 0, 0);
+
   cursor: pointer;
   font-size: 2.571428571428571em;
   line-height: 0.5em;
@@ -141,8 +147,8 @@ blockquote {
 
 blockquote .author {
   font-size: 0.75em;
-  color: #000;
-  margin-top: 2em;
+  color: rgb(0, 0, 0);
+  margin-top: 1em;
 }
 
 /* --- PAGE --- */
@@ -197,6 +203,10 @@ blockquote .author {
   background-color: #eb0000;
 }
 
+.darkpurple-bg {
+  background-color: #291b49;
+}
+
 .blue-bg {
   background-color: #01165f;
 }
@@ -221,134 +231,8 @@ blockquote .author {
 }
 #item6 {
   background-color: #02249f;
-}*/
-
-/* --- GALLERY --- */
-.gallery-col1 {
-  padding: 0 20px 0;
 }
-
-.gallery-nav:after {
-  content: "";
-  display: block;
-  height: 0;
-  line-height: 0;
-  visibility: hidden;
-  clear: both;
-}
-
-.gallery-imageholder {
-  width: 100%;
-  height: 50vh;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.gallery-thumb {
-  cursor: pointer;
-  width: 25%;
-  height: 0;
-  padding-top: 25%;
-  float: left;
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-}
-
-.gallery-radio {
-  position: absolute;
-  left: -300%;
-}
-
-.gallery .content {
-  padding: 0;
-}
-
-#img1:checked
-  ~ .layout.gallery
-  > .content
-  > .gallery-col2
-  > .gallery-imageholder {
-  background-image: url(http://www.hi.agency/deck/gallery/abstract-composition2.png);
-  background-color: #000;
-}
-
-#img1thumb,
-#img1:checked
-  ~ .layout.gallery
-  > .content
-  > .gallery-col2
-  > .gallery-imageholder {
-  background-image: url(http://www.hi.agency/deck/gallery/abstract-composition2.png);
-  background-color: #eb0000;
-}
-
-#img2thumb,
-#img2:checked
-  ~ .layout.gallery
-  > .content
-  > .gallery-col2
-  > .gallery-imageholder {
-  background-image: url(http://www.hi.agency/deck/gallery/a-strike.png);
-}
-
-#img3thumb,
-#img3:checked
-  ~ .layout.gallery
-  > .content
-  > .gallery-col2
-  > .gallery-imageholder {
-  background-image: url(http://www.hi.agency/deck/gallery/xs-col.png);
-}
-
-#img4thumb,
-#img4:checked
-  ~ .layout.gallery
-  > .content
-  > .gallery-col2
-  > .gallery-imageholder {
-  background-image: url(http://www.hi.agency/deck/gallery/a-strike2.png);
-  background-color: #000;
-}
-
-#img5thumb,
-#img5:checked
-  ~ .layout.gallery
-  > .content
-  > .gallery-col2
-  > .gallery-imageholder {
-  background-image: url(http://www.hi.agency/deck/gallery/circle.png);
-}
-
-#img6thumb,
-#img6:checked
-  ~ .layout.gallery
-  > .content
-  > .gallery-col2
-  > .gallery-imageholder {
-  background-image: url(http://www.hi.agency/deck/gallery/abstract-composition3.png);
-}
-
-#img7thumb,
-#img7:checked
-  ~ .layout.gallery
-  > .content
-  > .gallery-col2
-  > .gallery-imageholder {
-  background-image: url(http://www.hi.agency/deck/gallery/grid2-col.png);
-  background-color: #02249f;
-}
-
-#img8thumb,
-#img8:checked
-  ~ .layout.gallery
-  > .content
-  > .gallery-col2
-  > .gallery-imageholder {
-  background-image: url(http://www.hi.agency/deck/gallery/navigation.png);
-  background-position: right 0;
-}
+*/
 
 /* --- JUMP --- */
 #p1:target ~ .grid {
@@ -379,21 +263,6 @@ blockquote .author {
 #p6:target ~ .grid {
   -webkit-transform: translate3d(0, -500%, 0);
   transform: translate3d(0, -500%, 0);
-}
-
-#p7:target ~ .grid {
-  -webkit-transform: translate3d(0, -600%, 0);
-  transform: translate3d(0, -600%, 0);
-}
-
-#p8:target ~ .grid {
-  -webkit-transform: translate3d(0, -700%, 0);
-  transform: translate3d(0, -700%, 0);
-}
-
-#p9:target ~ .grid {
-  -webkit-transform: translate3d(0, -800%, 0);
-  transform: translate3d(0, -800%, 0);
 }
 
 @media screen and (orientation: landscape) {
@@ -615,21 +484,6 @@ blockquote .author {
     transform: translate3d(-66.66666666666667%, -33.11221669430625%, 0);
   }
 
-  #p7:target ~ .grid {
-    -webkit-transform: translate3d(0, -66.44555002763958%, 0);
-    transform: translate3d(0, -66.44555002763958%, 0);
-  }
-
-  #p8:target ~ .grid {
-    -webkit-transform: translate3d(-33.23155216284987%, -66.44555002763958%, 0);
-    transform: translate3d(-33.23155216284987%, -66.44555002763958%, 0);
-  }
-
-  #p9:target ~ .grid {
-    -webkit-transform: translate3d(-66.66666666666667%, -66.44555002763958%, 0);
-    transform: translate3d(-66.66666666666667%, -66.44555002763958%, 0);
-  }
-
   *:not(:target) ~ .grid > #page1.item:hover {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -640,10 +494,7 @@ blockquote .author {
   #p3:target ~ .grid > #page1.item:hover,
   #p4:target ~ .grid > #page1.item:hover,
   #p5:target ~ .grid > #page1.item:hover,
-  #p6:target ~ .grid > #page1.item:hover,
-  #p7:target ~ .grid > #page1.item:hover,
-  #p8:target ~ .grid > #page1.item:hover,
-  #p9:target ~ .grid > #page1.item:hover {
+  #p6:target ~ .grid > #page1.item:hover {
     -webkit-transform: scale(1.01);
     transform: scale(1.01);
     z-index: 100;
@@ -654,10 +505,7 @@ blockquote .author {
   #p3:target ~ .grid > #page3.item:hover,
   #p4:target ~ .grid > #page4.item:hover,
   #p5:target ~ .grid > #page5.item:hover,
-  #p6:target ~ .grid > #page6.item:hover,
-  #p7:target ~ .grid > #page7.item:hover,
-  #p8:target ~ .grid > #page8.item:hover,
-  #p9:target ~ .grid > #page9.item:hover {
+  #p6:target ~ .grid > #page6.item:hover {
     -webkit-transform: scale(1);
     transform: scale(1);
     z-index: 10;
@@ -672,10 +520,7 @@ blockquote .author {
   #p3:target ~ .grid > #page1 .focus-page,
   #p4:target ~ .grid > #page1 .focus-page,
   #p5:target ~ .grid > #page1 .focus-page,
-  #p6:target ~ .grid > #page1 .focus-page,
-  #p7:target ~ .grid > #page1 .focus-page,
-  #p8:target ~ .grid > #page1 .focus-page,
-  #p9:target ~ .grid > #page1 .focus-page {
+  #p6:target ~ .grid > #page1 .focus-page {
     display: block;
     z-index: 2000;
   }
@@ -685,22 +530,50 @@ blockquote .author {
   #p3:target ~ .grid > #page3 .focus-page,
   #p4:target ~ .grid > #page4 .focus-page,
   #p5:target ~ .grid > #page5 .focus-page,
-  #p6:target ~ .grid > #page6 .focus-page,
-  #p7:target ~ .grid > #page7 .focus-page,
-  #p8:target ~ .grid > #page8 .focus-page,
-  #p9:target ~ .grid > #page9 .focus-page {
+  #p6:target ~ .grid > #page6 .focus-page {
     display: none;
   }
+}
 
-  #p1:target ~ .navbar .menuBtn {
-    color: #000;
-  }
+#p2:target ~ .navbar .menuBtn,
+#p3:target ~ .navbar .menuBtn,
+#p5:target ~ .navbar .menuBtn,
+#p6:target ~ .navbar .menuBtn {
+  color: #fff !important;
+}
 
-  #p2:target ~ .navbar .menuBtn,
-  #p3:target ~ .navbar .menuBtn,
-  #p4:target ~ .navbar .menuBtn,
-  #p6:target ~ .navbar .menuBtn,
-  #p8:target ~ .navbar .menuBtn {
-    color: #fff;
-  }
+html
+  body
+  div.wrapper
+  div.grid
+  div#page2.item.white-txt.red-bg
+  div.layout
+  div.sidebar
+  a.next-page,
+html
+  body
+  div.wrapper
+  div.grid
+  div#page5.item.white-txt.red-bg
+  div.layout
+  div.sidebar
+  a.next-page,
+html
+  body
+  div.wrapper
+  div.grid
+  div#page3.item.white-txt.blue-bg
+  div.layout
+  div.sidebar
+  a.next-page,
+html
+  body
+  div.wrapper
+  div.grid
+  div#page6.item.white-txt.darkpurple-bg
+  div.layout
+  div.sidebar
+  a.next-page {
+  background: aliceblue !important;
+  color: black !important;
 }
