@@ -24,6 +24,18 @@
 
 ---
 
+How to get started?
+
+```bash
+git clone https://github.com/Aayush9029/EasyPost
+pip install -r requirements.txt 
+python3 app.py
+```
+ And open *http://127.0.0.1:5000/*
+
+
+---
+
 ### (Two inputs) form template.
 <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage.png" width="420"/>  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage2.png" width="420"/>
 
