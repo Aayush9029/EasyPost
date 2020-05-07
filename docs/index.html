@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" media="all" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <html lang="en">
+      <head>
+        <title>Deck CSS Grid template by Hi. Creative Agency</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta
+          name="description"
+          content="Deck is a dynamic, CSS only website template"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+      </head>
+      <body class="">
+        <input type="checkbox" id="menuChk" name="menuChk" />
+
+        <div class="menu desktop" id="menu">
+          <label for="menuChk" class="menuCloseBtn">&times;</label>
+          <h3>Table of Contents:</h3>
+          <ul>
+            <li><a href="#p1">Introduction</a></li>
+            <li><a href="#p2">About Deck</a></li>
+            <li><a href="#p3">Navigation</a></li>
+            <li><a href="#p4">CSS Grid</a></li>
+            <li><a href="#p5">Mobile</a></li>
+            <li><a href="#p6">Legacy browsers</a></li>
+            <li><a href="#p7">Example: Image</a></li>
+            <li><a href="#p8">Example: Quote</a></li>
+            <li><a href="#p9" class="gallery-link">Example: Gallery</a></li>
+          </ul>
+        </div>
+
+        <div class="wrapper">
+          <!-- Proxy anchors associate with layout ids in CSS. Transforms applied to scroll pages to view in desktop mode-->
+          <div class="proxy-anchor" id="p1"></div>
+          <div class="proxy-anchor" id="p2"></div>
+          <div class="proxy-anchor" id="p3"></div>
+          <div class="proxy-anchor" id="p4"></div>
+          <div class="proxy-anchor" id="p5"></div>
+          <div class="proxy-anchor" id="p6"></div>
+          <div class="proxy-anchor" id="p7"></div>
+          <div class="proxy-anchor" id="p8"></div>
+          <div class="proxy-anchor" id="p9"></div>
+          <!--/ Proxy anchors -->
+
+          <div class="grid">
+            <div class="item white-bg" id="page1">
+              <a href="#p1" class="focus-page">focus</a
+              ><label class="selected-closer" for="menuChk">&nbsp;</label>
+              <div id="image1" class="image">
+                <div class="image-container">
+                  <img
+                    src="http://www.hi.agency/deck/img/cover1.png"
+                    alt="Cover Artwork"
+                  />
+                </div>
+              </div>
+
+              <div class="layout home">
+                <div class="content">
+                  <h2>Introducing</h2>
+                  <h1 class="huge">Deck</h1>
+                  <p>A dynamic, CSS only website template</p>
+                </div>
+                <div class="sidebar">
+                  <a href="#p2" class="next-page">Next</a>
+                </div>
+              </div>
+            </div>
+            <!-- End item1 -->
+
+            <div class="item white-txt red-bg" id="page2">
+              <a href="#p2" class="focus-page">focus</a
+              ><label class="selected-closer" for="menuChk">&nbsp;</label>
+              <div id="image2" class="image">
+                <div class="image-container">
+                  <img
+                    src="http://www.hi.agency/deck/img/about.png"
+                    alt="Artwork"
+                  />
+                </div>
+              </div>
+
+              <div class="layout">
+                <div class="content">
+                  <h2>About Deck</h2>
+                  <p>
+                    Deck is a CSS only SPA-style template designed for linear
+                    presentations like powerpoint, galleries, and marketing
+                    communications.
+                  </p>
+                  <p>
+                    Deck uses no javascript to control the interface, but
+                    instead relies on CSS3 techniques and native browser
+                    functionality to provide navigation. Individual pages can be
+                    deep linked into, and the back/forward buttons remain
+                    functional as you browse the website.
+                  </p>
+                </div>
+                <div class="sidebar">
+                  <a href="#p3" class="next-page">Next</a>
+                </div>
+              </div>
+            </div>
+            <!-- End item2 -->
+
+            <div class="item white-txt blue-bg" id="page3">
+              <a href="#p3" class="focus-page">focus</a
+              ><label class="selected-closer" for="menuChk">&nbsp;</label>
+              <div id="image3" class="image">
+                <div class="image-container">
+                  <img
+                    src="http://www.hi.agency/deck/img/navigation.png"
+                    alt="Artwork"
+                  />
+                </div>
+              </div>
+
+              <div class="layout">
+                <div class="content">
+                  <h2>Navigation</h2>
+                  <p>
+                    While Deck is well-suited for linear narratives, the user
+                    may also pull back and view the entire collection of pages
+                    via the table of contents menu. Selecting any of the pages
+                    by clicking will focus that layout once the menu is closed,
+                    or you can double click to go straight into a specific page.
+                  </p>
+                </div>
+                <div class="sidebar">
+                  <a href="#p4" class="next-page">Next</a>
+                </div>
+              </div>
+            </div>
+            <!-- End item3 -->
+
+            <div class="item white-bg" id="page4">
+              <a href="#p4" class="focus-page">focus</a
+              ><label class="selected-closer" for="menuChk">&nbsp;</label>
+              <div id="image4" class="image left">
+                <div class="image-container">
+                  <img
+                    src="http://www.hi.agency/deck/img/grid.png"
+                    alt="Artwork"
+                  />
+                </div>
+              </div>
+
+              <div class="layout left">
+                <div class="content">
+                  <h2>CSS Grid</h2>
+                  <p>
+                    Deck uses the new CSS grid layout to provide control over
+                    horizontal and vertical placement of content within each
+                    page. This new control is particularly well suited to a
+                    format like Deck which has no 'below the fold' content.
+                  </p>
+                </div>
+                <div class="sidebar">
+                  <a href="#p5" class="next-page">Next</a>
+                </div>
+              </div>
+            </div>
+            <!-- End item4 -->
+
+            <div class="item white-bg" id="page5">
+              <a href="#p5" class="focus-page">focus</a
+              ><label class="selected-closer" for="menuChk">&nbsp;</label>
+              <div id="image5" class="image">
+                <div class="image-container">
+                  <img
+                    src="http://www.hi.agency/deck/img/mobile.png"
+                    alt="Artwork"
+                  />
+                </div>
+              </div>
+
+              <div class="layout">
+                <div class="content">
+                  <h2>Mobile</h2>
+                  <p>
+                    For mobile users, Deck is responsive and adapts itself to a
+                    mobile-friendly format. The table of contents allows for
+                    fast navigation to specific pages, and the back button
+                    remains usable.
+                  </p>
+                </div>
+                <div class="sidebar">
+                  <a href="#p6" class="next-page">Next</a>
+                </div>
+              </div>
+            </div>
+            <!-- End item5 -->
+
+            <div class="item white-txt blue-bg-2" id="page6">
+              <a href="#p6" class="focus-page">focus</a
+              ><label class="selected-closer" for="menuChk">&nbsp;</label>
+              <div id="image6" class="image">
+                <div class="image-container">
+                  <img
+                    src="http://www.hi.agency/deck/img/legacy.png"
+                    alt="Artwork"
+                  />
+                </div>
+              </div>
+
+              <div class="layout">
+                <div class="content">
+                  <h2>Legacy Browsers</h2>
+                  <p>
+                    Older browsers are supported as well, with Deck gracefully
+                    degrading to support previous CSS versions, while remaining
+                    accessible and usable.
+                  </p>
+                </div>
+                <div class="sidebar">
+                  <a href="#p7" class="next-page">Next</a>
+                </div>
+              </div>
+            </div>
+            <!-- End item6 -->
+
+            <div class="item white-bg" id="page7">
+              <a href="#p7" class="focus-page">focus</a
+              ><label class="selected-closer" for="menuChk">&nbsp;</label>
+              <div id="image7" class="image splash">
+                <div class="image-container">
+                  <img
+                    src="http://www.hi.agency/deck/img/image.png"
+                    alt="Artwork"
+                  />
+                </div>
+              </div>
+
+              <div class="layout splash">
+                <div class="content">
+                  <p>An example of a full-page image, with caption text.</p>
+                </div>
+                <div class="sidebar">
+                  <a href="#p8" class="next-page">Next</a>
+                </div>
+              </div>
+            </div>
+            <!-- End item7 -->
+
+            <div class="item white-txt red-bg" id="page8">
+              <a href="#p8" class="focus-page">focus</a
+              ><label class="selected-closer" for="menuChk">&nbsp;</label>
+              <div id="image8" class="image">
+                <div class="image-container">
+                  <img
+                    src="http://www.hi.agency/deck/img/quote.png"
+                    alt="Artwork"
+                  />
+                </div>
+              </div>
+
+              <div class="layout">
+                <div class="content">
+                  <blockquote>
+                    Perfection is achieved, not when there is nothing more to
+                    add, but when there is nothing left to take away.
+                    <div class="author">—Antoine de Saint-Exupery</div>
+                  </blockquote>
+                </div>
+                <div class="sidebar">
+                  <a href="#p9" class="next-page">Next</a>
+                </div>
+              </div>
+            </div>
+            <!-- End item8 -->
+
+            <div class="item" id="page9">
+              <a href="#p9" class="focus-page">focus</a
+              ><label class="selected-closer" for="menuChk">&nbsp;</label>
+
+              <input
+                type="radio"
+                class="gallery-radio"
+                tabindex="1"
+                name="image"
+                id="img1"
+                checked
+              />
+              <input
+                type="radio"
+                class="gallery-radio"
+                tabindex="2"
+                name="image"
+                id="img2"
+              />
+              <input
+                type="radio"
+                class="gallery-radio"
+                tabindex="3"
+                name="image"
+                id="img3"
+              />
+              <input
+                type="radio"
+                class="gallery-radio"
+                tabindex="4"
+                name="image"
+                id="img4"
+              />
+              <input
+                type="radio"
+                class="gallery-radio"
+                tabindex="5"
+                name="image"
+                id="img5"
+              />
+              <input
+                type="radio"
+                class="gallery-radio"
+                tabindex="6"
+                name="image"
+                id="img6"
+              />
+              <input
+                type="radio"
+                class="gallery-radio"
+                tabindex="7"
+                name="image"
+                id="img7"
+              />
+              <input
+                type="radio"
+                class="gallery-radio"
+                tabindex="8"
+                name="image"
+                id="img8"
+              />
+
+              <div class="layout gallery">
+                <div class="content">
+                  <div class="gallery-col2">
+                    <div class="gallery-imageholder"></div>
+                  </div>
+                  <div class="gallery-col1">
+                    <div class="gallery-nav">
+                      <h2>Gallery</h2>
+                      <label for="img1" class="gallery-thumb" id="img1thumb"
+                        >Image1</label
+                      >
+                      <label for="img2" class="gallery-thumb" id="img2thumb"
+                        >Image2</label
+                      >
+                      <label for="img3" class="gallery-thumb" id="img3thumb"
+                        >Image3</label
+                      >
+                      <label for="img4" class="gallery-thumb" id="img4thumb"
+                        >Image4</label
+                      >
+                      <label for="img5" class="gallery-thumb" id="img5thumb"
+                        >Image5</label
+                      >
+                      <label for="img6" class="gallery-thumb" id="img6thumb"
+                        >Image6</label
+                      >
+                      <label for="img7" class="gallery-thumb" id="img7thumb"
+                        >Image7</label
+                      >
+                      <label for="img8" class="gallery-thumb" id="img8thumb"
+                        >Image8</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="sidebar">
+                  <a href="#p1" class="next-page">Next</a>
+                </div>
+              </div>
+            </div>
+            <!-- End item9 -->
+
+            <div class="footer">
+              &copy; 2017 James Clarke -
+              <a href="http://www.hi.agency/">hi.agency</a>
+            </div>
+          </div>
+
+          <div class="navbar">
+            <label for="menuChk" class="menuBtn">&#9776;</label>
+          </div>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
