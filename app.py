@@ -10,7 +10,6 @@ data_for_poll = {
 poll_data_filename = './data/polldata.txt'
  
 
-
 @app.route('/')
 def root():
     return render_template('index.html')
@@ -38,18 +37,25 @@ def poll_results():
     f  = open(poll_data_filename, 'r')
     for line in f:
         vote = line.rstrip("\n")
-        votes[vote] += 1
-        total += 1
+        if vote in data_for_poll["fields"]:
+            votes[vote] += 1
+            total += 1
     
     return render_template('poll/results.html', data=data_for_poll, votes=votes, total=total)
-
-
 
 @app.route('/form')
 def form():
     return render_template('form/form_template.html')
 
- 
+
+@app.route('/login')
+def login():
+    return render_template('login/login.html')
+
+@app.route('/signup')
+def signup():
+    return render_template('login/signup.html')
+
  
 if __name__ == "__main__":
     app.run(debug=True)

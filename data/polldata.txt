@@ -4,7 +4,6 @@ Django
 Django
 Flask
 Flask
-Flask
 pylonsproject
 Flask
 Flask
@@ -18,8 +17,6 @@ Flask
 TurboGears
 Django
 Django
-Django
-Flask
 Flask
 Django
-Django
+Flask
