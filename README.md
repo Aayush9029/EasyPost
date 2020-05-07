@@ -23,7 +23,7 @@
 
 ---
 
-### Two input box form template.
+### (Two inputs) form template.
 
 <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage.png" width="420"/>  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/formimage2.png" width="420"/>
 
