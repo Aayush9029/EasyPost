@@ -22,7 +22,6 @@ def poll():
 @app.route('/poll-data')
 def poll_data():
     vote = request.args.get('field')
-    print("vote-------------------------->", str(vote))
     out = open(poll_data_filename, 'a')
     out.write(vote +"\n")
     out.close()
@@ -32,7 +31,7 @@ def poll_data():
 @app.route('/poll-results')
 def poll_results():
     votes = {}
-
+    total = 0
     for f in data_for_poll['fields']:
         votes[f] = 0
  
@@ -40,8 +39,9 @@ def poll_results():
     for line in f:
         vote = line.rstrip("\n")
         votes[vote] += 1
- 
-    return render_template('poll/results.html', data=data_for_poll, votes=votes)
+        total += 1
+    
+    return render_template('poll/results.html', data=data_for_poll, votes=votes, total=total)
 
 
 

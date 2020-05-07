@@ -2,15 +2,40 @@
 <html>
   <head>
     <title>{{ data.question }}</title>
+    <link rel="stylesheet" href="../../static/polldata.css" />
   </head>
   <body>
-    <h1>Results for</h1>
-    {{ data.question }}
+    <h1 class="title">Results for</h1>
 
-    <ul>
+    <h2 class="question">{{ data.question }}</h2>
+
+    <ul class="option">
       {% for e in votes %}
-      <li>{{ e }} {{ votes[e] }}</li>
+      <li class="item">
+        <span class="name"> {{ e }} </span>
+        <span class="number"
+          >{{"%.f"|format( (votes[e]) / total * 100 )}}%</span
+        >
+      </li>
+
+      <br />
       {% endfor %}
     </ul>
+    <script>
+      let answers = document.getElementsByClassName("number");
+
+      for (const answer of answers) {
+        let percent = Math.floor(answer.innerHTML.split()[0].split("%")[0]);
+        answer.style.width = percent + "%";
+        if (percent == 0) {
+          // answer.style.width = 0;
+          answer.style.padding = 0;
+          answer.style.boxShadow = "none";
+          answer.style.display = "inline";
+
+          answer.style.margin = "1vh 10vw";
+        }
+      }
+    </script>
   </body>
 </html>
