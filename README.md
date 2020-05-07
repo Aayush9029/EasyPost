@@ -28,6 +28,7 @@ How to get started?
 
 ```bash
 git clone https://github.com/Aayush9029/EasyPost
+cd EasyPost 
 pip install -r requirements.txt 
 python3 app.py
 ```
