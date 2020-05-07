@@ -31,11 +31,13 @@
 ---
 
 ### Poll (Minimal, Dark theme)
+
 <center>
   <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/poll.png" width="600"/>
   
 ### Poll Results (Mordern Dark theme)
-  <img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/pollresult.png" width="600"/>
+
+<img src="https://raw.githubusercontent.com/Aayush9029/EasyPost/master/readme_img/pollresult.png" width="600"/>
 </center>
 
 ---
