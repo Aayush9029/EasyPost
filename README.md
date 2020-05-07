@@ -18,7 +18,7 @@
 >
 >while seamlessy hosting the form in either a local web-server or in the internet.
 
-**EasyPost** makes doing all that **super simple**, with it's **GUI interface** and fully **opensource** templates.
+**EasyPost** makes doing all that **super simple**, with it's **GUI interface\*** and fully **opensource** templates.
 
 *It's lightweight fast, stable\* And the best part the data never leaves your device*
 
