@@ -16,7 +16,7 @@
 > - plain text
 > - xml
 >
->while seamlessy hosting the form in either a local web-server or in the internet.
+>while seamlessly hosting the form in either a local web-server or in the internet.
 
 **EasyPost** makes doing all that **super simple**, with it's **GUI interface\*** and fully **opensource** templates.
 
